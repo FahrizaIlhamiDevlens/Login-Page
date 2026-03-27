@@ -1,0 +1,83 @@
+body{
+    background: #d755e6;
+  background-size: cover ;
+    background: linear-gradient(34deg,rgba(215, 85, 230, 1) 30%, rgba(37, 0, 74, 1) 100%);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    background: rgba(255,255,255,0.1);
+    border: 2px solid hsl(282, 88%, 27%);
+    border-radius: 25px;
+    color: white;
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.container{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  background: linear-gradient(180deg, rgb(226, 158, 224), #4c175b );
+border-radius: 20px;
+    width: 250px;
+    height: 270px;
+    margin: auto;
+    margin-top: 90px;
+    border: 1px solid hsl(282, 88%, 27%);
+    
+}   
+
+.container h1{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+#username, #password{
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+}
+
+#username:focus,
+#password:focus{
+    outline: none;
+    border: 2px solid hsl(282, 88%, 27%);
+    box-shadow: 0 0 8px hsl(282, 88%, 27%);
+    transition: 0.3s ease;
+}
+
+input{
+    transition: 0.3s;
+}
+
+
+#login-btn{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #5c0880;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+#login-btn:hover{
+    background-color: #4a0665;
+}
+
+placeholder{
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+}
