@@ -19,7 +19,7 @@ document
     // cek login
     if (username === correctUsername && password === correctPassword) {
       // buka tab baru menuju website
-      window.open("https://only-for-you-bice.vercel.app/", "_blank");
+      window.open("https://admin-web-git-main-fahrizas-projects.vercel.app/", "_blank");
     } else {
       alert("anda salah");
     }
